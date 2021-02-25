@@ -1,0 +1,27 @@
+@import "colores";
+
+body{background-color: $bodyColor}
+
+nav{background-color: $navColor;
+        li{transition: background-color 1s;
+        }
+            li:hover{
+                background-color: rgb(117, 117, 117);
+        }
+}
+
+
+
+footer{background-image: linear-gradient(rgb(51, 51, 51), rgb(0, 0, 0));
+    color: white;
+    text-align: center;
+    
+    
+}
+/*MEDIAS QUERIES*/
+
+@media(max-width: 768px){ 
+    .correo{text-align: right;}
+
+ }
+
